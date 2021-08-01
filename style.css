@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 50%;
     height: 100vh;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 55rem;
 }
 
 .instagram-continue {
@@ -50,10 +50,11 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #535252;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 2px solid  rgb(62, 154, 216);
+    border-radius: 1%;
 }
 
 .group:nth-child(1) {
@@ -61,7 +62,7 @@ body {
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 4rem;
 }
 
 .profile-photo {
@@ -73,50 +74,55 @@ body {
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 7rem;
 }
 
 .instagram-login {
-    background-color: #0095f6;
-    color: #ffffff;
+    background-color:  rgb(62, 154, 216);
+    color: rgb(10, 10, 10);
     padding: 8px;
     border-radius: 4px;
 }
 
 .instagram-logout {
-    color: #0095f6;
+    color: #050505;
     margin-top: 1rem;
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: rgb(10, 10, 10);
 }
 
 .link-blue {
-    color: #0095f6;
+    color:  rgb(62, 154, 216);
 }
 
 .get-the-app {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     padding: 1.3rem 0;
+    color: rgb(62, 154, 216);
 }
 
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 .app-download {
+    border-radius: 10%;
+    border:solid 2px rgb(62, 154, 216);
     height: 3rem;
     width: 10rem;
     background-size: cover;
+
+
 }
 
 .app-download:nth-child(1) {
@@ -138,7 +144,7 @@ body {
 
 @media (max-width: 650px) {
     body {
-        background-color: #ffffff;
+        background-color: #070707;
     }
 
     .instagram-wrapper {
@@ -154,6 +160,22 @@ body {
     }
     
     .group {
-        border: 1px solid transparent;
+        border: 1px solid gold;
     }
+
+    .get-the-app{
+        color:gold
+
+        }
+
+    .app-download{
+        border:solid 2px gold;
+    }
+
+    .link-blue{
+        color:gold;
+    }
+
+    .instagram-login {
+        background-color:gold;
 }
